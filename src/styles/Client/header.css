@@ -1,0 +1,22 @@
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.header__play{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.header__play__logo{
+    width: 80px;
+    position: absolute;
+}
+.header__play__play{
+    border: 2px solid #07B1B2;
+    padding: 20px 40px;
+    background-color: #1E2328 ;
+    color: #EEE4D0;
+    font-weight: bold;
+    margin-left: 33px;
+}

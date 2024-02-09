@@ -1,0 +1,21 @@
+.asideSign {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	width: 30%;
+	position: absolute;
+	text-align: center;
+	align-items: center;
+    height: 100%;
+	z-index: 1;
+	height: 100vh;
+}
+
+.asideSign__logo {
+    width: 20%;
+}
+
+.asideSign__container{
+	position: relative;
+	top: 20%;
+}

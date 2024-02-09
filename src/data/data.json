@@ -1,0 +1,38 @@
+{
+	"logos": [
+		{
+			"nom": "Riot Games",
+			"url": "https://www.logo.wine/a/logo/Riot_Games/Riot_Games-Logo.wine.svg"
+		},
+		{
+			"nom": "Logo 2",
+			"url": "https://exemple.com/logo2.png"
+		},
+		{
+			"nom": "Logo 3",
+			"url": "https://exemple.com/logo3.png"
+		}
+	],
+	"videoClient": [
+		{
+			"nom": "All Out",
+			"url": "https://exemple.com/video1.mp4"
+		},
+		{
+			"nom": "Vidéo 2",
+			"url": "https://exemple.com/video2.mp4"
+		},
+		{
+			"nom": "Vidéo 3",
+			"url": "https://exemple.com/video3.mp4"
+		},
+		{
+			"nom": "Vidéo 4",
+			"url": "https://exemple.com/video4.mp4"
+		},
+		{
+			"nom": "Vidéo 5",
+			"url": "https://exemple.com/video5.mp4"
+		}
+	]
+}
