@@ -5,7 +5,7 @@ import '../styles/Home/home.css'
 export default function Home(){
     return(
         <div className='home'>
-            <Header />
+            UNDER <br/>CONSTRUCTION
         </div>
     )
 }
