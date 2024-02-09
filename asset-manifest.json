@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/leagueoflegends/static/css/main.9265d456.css",
+    "main.js": "/leagueoflegends/static/js/main.d3a43d7a.js",
+    "static/js/592.1fbefd73.chunk.js": "/leagueoflegends/static/js/592.1fbefd73.chunk.js",
+    "static/media/lolLogo.png": "/leagueoflegends/static/media/lolLogo.84094d24516a1709251e.png",
+    "static/media/lol.png": "/leagueoflegends/static/media/lol.f49a9f21c54bec3fdf80.png",
+    "index.html": "/leagueoflegends/index.html",
+    "main.9265d456.css.map": "/leagueoflegends/static/css/main.9265d456.css.map",
+    "main.d3a43d7a.js.map": "/leagueoflegends/static/js/main.d3a43d7a.js.map",
+    "592.1fbefd73.chunk.js.map": "/leagueoflegends/static/js/592.1fbefd73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9265d456.css",
+    "static/js/main.d3a43d7a.js"
+  ]
+}
