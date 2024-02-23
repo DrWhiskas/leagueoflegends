@@ -1,20 +1,52 @@
-import React from "react";
-import lolLogo from '../../media/lolLogo.png'
-import '../../styles/Client/header.css'
+import React, {useState} from "react";
+import { Link } from 'react-router-dom';
+import '../../styles/Home/header.css'
 
 export default function Header(){
-    return (
-			<div className="Header">
-				<div className="header__content">
-					<div className="header__play">
-						<img className="header__play__logo" src={lolLogo} alt="logo play" />
-						<div className="header__play__play">Play</div>
-					</div>
-                    <div className="header__link">
-                        <p>ACCUEIL</p>
-                        <p>TFT</p>
-                    </div>
-				</div>
-			</div>
+	const [showLogout, setShowLogout] = useState(false)
+
+
+
+	function LinkBuild({ text, link }) {
+		return (
+			<li>
+				<Link to={link} className="header__links__link">
+					{text}
+				</Link>
+			</li>
 		);
+	}
+	function handleShowLogout(){
+		setShowLogout(!showLogout)
+	}
+	return (
+		<header className="header">
+			<div className="header__container">
+				<Link to="/home">
+					<img
+						className="header__logo"
+						src="https://i.imgur.com/Jf3KsA4.png"
+						alt="home's logo"
+					/>
+				</Link>
+				<ul className="header__link">
+					<LinkBuild text="Home" link="/home" />
+					<LinkBuild text="History" link="#" />
+					<LinkBuild text="Profil" link="#" />
+				</ul>
+			</div>
+
+			<div className="header__profil">
+				<img
+					className="header__profil__icon"
+					src="https://i.imgur.com/A2POR9d.png"
+					alt="profil's icon"
+					onClick={handleShowLogout}
+				/>
+				<button className={showLogout ? 'header__profil__btn' : 'hidden'}>
+					Logout
+				</button>
+			</div>
+		</header>
+	);
 }

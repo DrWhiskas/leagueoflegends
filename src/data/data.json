@@ -1,14 +1,17 @@
 {
 	"logos": [
 		{
+			"id": "0",
 			"nom": "Riot Games",
 			"url": "https://www.logo.wine/a/logo/Riot_Games/Riot_Games-Logo.wine.svg"
 		},
 		{
-			"nom": "Logo 2",
-			"url": "https://exemple.com/logo2.png"
+			"id": "1",
+			"nom": "MenuLogo",
+			"url": "https://i.imgur.com/Jf3KsA4.png"
 		},
 		{
+			"id": "2",
 			"nom": "Logo 3",
 			"url": "https://exemple.com/logo3.png"
 		}
